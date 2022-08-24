@@ -2,7 +2,7 @@ import React from 'react';
 import './Item.css'
 
 const Item = ({ item }) => {
-    const { strDrink, strDrinkThumb, strGlass } = item;
+    const { strDrink, strDrinkThumb } = item;
 
     return (
         <div className='item'>
