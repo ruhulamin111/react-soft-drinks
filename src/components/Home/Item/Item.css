@@ -1,0 +1,11 @@
+.item {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 1em;
+}
+
+.item-img {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 1em;
+}

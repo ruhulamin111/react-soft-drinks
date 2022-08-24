@@ -17,14 +17,17 @@
 
 .info button {
     float: right;
+    color: white;
     border: 1px solid salmon;
     background-color: white;
     cursor: pointer;
+    background-color: salmon;
     border-radius: 1em;
     padding: 1em;
 }
 
 .info button:hover {
-    background-color: salmon;
-    color: white;
+    border: 1px solid salmon;
+    background-color: white;
+    color: salmon;
 }

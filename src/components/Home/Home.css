@@ -1,10 +1,20 @@
-.home-container {
+.container {
     width: 90%;
     margin: auto;
+}
+
+.home-container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 .shop-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2em;
+}
+
+.order-container {
+    padding: 0 1em;
 }
