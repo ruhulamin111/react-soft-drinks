@@ -37,6 +37,7 @@ const Home = () => {
                             item={item}
                         ></Item>)
                     }
+                    <button>Order Now</button>
                 </div>
             </dir>
         </div>

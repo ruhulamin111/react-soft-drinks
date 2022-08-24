@@ -1,6 +1,7 @@
 .container {
     width: 90%;
     margin: auto;
+
 }
 
 .home-container {
@@ -8,6 +9,8 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
+;
 
 .shop-container {
     display: grid;
@@ -17,4 +20,17 @@
 
 .order-container {
     padding: 0 1em;
+    margin: 0 1em;
+    border-radius: 1em;
+    color: white;
+    background-color: salmon;
+}
+
+.order-container button {
+    padding: 1em;
+    border: 1px solid white;
+    border-radius: 1em;
+    cursor: pointer;
+    color: white;
+    background-color: salmon;
 }
