@@ -1,7 +1,6 @@
 .container {
     width: 90%;
     margin: auto;
-
 }
 
 .home-container {
@@ -9,8 +8,6 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-
-;
 
 .shop-container {
     display: grid;
