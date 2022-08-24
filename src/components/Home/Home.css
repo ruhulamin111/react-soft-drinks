@@ -1,0 +1,10 @@
+.home-container {
+    width: 90%;
+    margin: auto;
+}
+
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}

@@ -1,10 +1,16 @@
 import React from 'react';
 import './Drinks.css'
 
-const Drinks = () => {
+const Drinks = ({ drink }) => {
+    const { strDrink, strDrinkThumb, strGlass, strInstructionsDE } = drink;
+
+
     return (
-        <div>
-            <h2>Drinks</h2>
+        <div className='info'>
+            <img className='img-container' src={strDrinkThumb} alt="" />
+            <p>Name : {strDrink}</p>
+            <p>Category : {strGlass}</p>
+            <button>Add To Cart</button>
         </div>
     );
 };

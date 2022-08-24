@@ -1,0 +1,30 @@
+.info {
+    padding: 1em;
+    border: 1px solid salmon;
+    border-radius: 1em;
+    line-height: 1em;
+}
+
+.img-container {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.info p {
+    font-weight: bold;
+}
+
+.info button {
+    float: right;
+    border: 1px solid salmon;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.info button:hover {
+    background-color: salmon;
+    color: white;
+}
