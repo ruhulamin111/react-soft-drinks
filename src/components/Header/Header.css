@@ -1,0 +1,26 @@
+.nav-bar {
+    background-color: rgb(209, 91, 209);
+    color: white;
+    height: 80px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 31px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: purple;
+
+}
